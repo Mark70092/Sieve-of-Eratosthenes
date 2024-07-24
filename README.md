@@ -1,4 +1,4 @@
-Sure, here is the markdown version:
+Конечно! Вот обновленная версия в формате Markdown с добавлением команд для генерации файла и запуска тестов:
 
 # Instructions
 
@@ -30,3 +30,27 @@ Sure, here is the markdown version:
 
 - I wrote tests in a file called `test_sieve.py`. These tests check if my function to get the Nth prime number works correctly.
 - To run the tests, I used the command `python -m unittest discover`. This command finds all the test files and runs them.
+
+## Running the Code
+
+### Step 1: Generate the `primes.txt` File
+
+Run the following command to generate the `primes.txt` file:
+
+```bash
+python generate_primes.py
+```
+
+This will create a file named `primes.txt` containing a list of prime numbers.
+
+### Step 2: Run the Tests
+
+After generating the `primes.txt` file, you can run the tests to ensure everything is working correctly:
+
+```bash
+python -m unittest discover
+```
+
+This command will find and run all the test files and check if everything works correctly.
+
+By following these steps, you can see how I created the solution, how it works, and how to test it. If you need any more help, just let me know!
